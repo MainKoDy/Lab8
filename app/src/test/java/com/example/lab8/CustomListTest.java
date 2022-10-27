@@ -72,4 +72,14 @@ public class CustomListTest {
             list.delete(city); });
     }
 
+//    @Test
+//    void testCountCities() {
+//        list = MockCityList();
+//        City city = new City("Pyongyang", "Soueul");
+//        list.addCity(city);
+//        assertEquals(2, list.countCities());
+//        list.delete(city);
+//        assertEquals(1, list.countCities());
+//
+//    }
 }
