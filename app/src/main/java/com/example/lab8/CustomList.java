@@ -89,10 +89,10 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      */
     public void delete(City city) {
-//        if (this.hasCity(city) == false) {
-//            throw new IllegalArgumentException();
-//        }
-//        this.cities.remove(city);
+        if (this.hasCity(city) == false) {
+            throw new IllegalArgumentException();
+        }
+        this.cities.remove(city);
     }
 
     /**
