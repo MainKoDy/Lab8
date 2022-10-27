@@ -84,7 +84,23 @@ public class CustomList extends ArrayAdapter<City> {
         return this.getCities().contains(city);
     }
 
+    /**
+     * This method checks if the given city is within the list. If not, then it throws an exception. Otherwise, it removes that city from the list.
+     * @param city
+     */
+    public void delete(City city) {
+//        if (this.hasCity(city) == false) {
+//            throw new IllegalArgumentException();
+//        }
+//        this.cities.remove(city);
+    }
 
-
+    /**
+     * This method returns the number of cities in the list.
+     * @return
+     */
+    public int countCities() {
+        return this.cities.size();
+    }
 
 }
