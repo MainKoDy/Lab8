@@ -61,7 +61,7 @@ public class CustomListTest {
         City city = new City("Pyongyang", "Soueul");
         list.addCity(city);
         list.delete(city);
-        assertEquals(1, list.countCities());
+        assertEquals(0, list.countCities());
     }
 
     @Test
