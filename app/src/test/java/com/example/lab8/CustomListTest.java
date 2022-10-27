@@ -51,7 +51,6 @@ public class CustomListTest {
     void testHasCityException() {
         list = MockCityList();
         City city = new City("Pyongyang", "Soueul");
-        list.add(city);
         assertFalse(list.hasCity(city));
     }
 
